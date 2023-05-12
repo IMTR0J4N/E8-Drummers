@@ -4,4 +4,63 @@
     --orange: #f9a02c;
     --light-orange: #ffc368;
     --purple: #110011;
+    --gray: #1a1a1a;
+    --white: #FFF;
+    --black: #0000;
+
+    --font-family: "Arvo", sans-serif;
+
+    --mobile-bp: 575px;
+    --tablet-bp: 765px;
+    --pc-bp: 995px;
 }
+
+* {
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--gray);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+header img {
+    width: 90px;
+}
+
+nav {
+    height: 180px;
+    width: 100%;
+    background-color: var(--orange);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33.3%;
+    width: 100%;
+}
+
+li a {
+    color: var(--white);
+}
+/* li:hover {
+    background-color: var(--light-orange);
+    color: var(--gray);
+} */
