@@ -60,6 +60,10 @@ li {
 li a {
     color: var(--white);
 }
+
+li a::first-letter {
+    text-transform: capitalize;
+}
 /* li:hover {
     background-color: var(--light-orange);
     color: var(--gray);
