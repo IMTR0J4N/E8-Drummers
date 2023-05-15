@@ -204,6 +204,7 @@ footer {
   header nav ul li:hover {
     background-color: var(--light-orange);
     color: var(--gray);
+    height: 100%;
   }
 
   main {
