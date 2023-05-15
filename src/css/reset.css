@@ -34,7 +34,7 @@ ul {
     list-style: none;
 }
 
-img {
+img, picture source, picture img {
     max-width: 100%;
     height: auto;
 }
